@@ -1,0 +1,7 @@
+{
+  "name": "nekitier3setbonus",
+  "defaultDuration": 15,
+  "scriptDelta": 60,
+  "effectConfig":{"setName":"nekitier3set","setStatEffects":["nekitier3setbonuseffect"]},
+  "scripts":["/stats/effects/fu_armoreffects/setbonuses_generichandler.lua"]
+}

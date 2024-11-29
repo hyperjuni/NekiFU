@@ -1,0 +1,5 @@
+[
+  {"op":"add","path":"/upgradeStages/0/itemSpawnParameters/nekiDescription","value":"The king of techy tables."},
+  {"op":"add","path":"/upgradeStages/1/itemSpawnParameters/nekiDescription","value":"This techy house purrints techy gifts."},
+  {"op":"add","path":"/upgradeStages/2/itemSpawnParameters/nekiDescription","value":"A super advanced game that purrints super advanced prizes!"}
+]

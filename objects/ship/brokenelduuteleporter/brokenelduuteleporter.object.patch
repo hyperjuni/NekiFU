@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"This looks like the purrfect place for a nap."},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+  ]
+]

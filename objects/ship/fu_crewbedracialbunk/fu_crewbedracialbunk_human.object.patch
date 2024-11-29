@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"You cannot purr while danger is nearby."},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+  ]
+]

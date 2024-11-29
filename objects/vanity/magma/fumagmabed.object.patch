@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"Is made of warm!"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+  ]
+]

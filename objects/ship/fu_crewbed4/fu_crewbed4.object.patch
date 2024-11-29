@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"An empty hust of a mother."},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+  ]
+]

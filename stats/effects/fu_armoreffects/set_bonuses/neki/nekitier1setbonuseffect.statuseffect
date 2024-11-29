@@ -1,0 +1,6 @@
+{
+  "name": "nekitier1setbonuseffect",
+  "defaultDuration": 15,
+  "scriptDelta": 60,
+  "scripts":["nekitier1setbonuseffect.lua"]
+}

@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/effectConfig/materialEffects/organic/0/liquid", "value": "bloodliquid"},
+  {"op": "add", "path": "/blockingStat", "value": "bleedingImmunity"}
+]

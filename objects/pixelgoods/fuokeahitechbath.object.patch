@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"A waterless waterbox! I'd still rrather lick myself."},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebasicbath"}
+  ]
+]

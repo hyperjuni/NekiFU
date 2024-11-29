@@ -1,0 +1,90 @@
+{
+  "stats": [  
+  // Elemental
+    {"stat": "fireResistance", "amount": -0.2},
+    {"stat": "poisonResistance", "amount": 0.1},
+    {"stat": "iceResistance", "amount": 0.15},
+
+  // Physical
+    {"stat": "physicalResistance", "amount": -0.15},
+
+  // Mobility
+    {"stat": "fumudslowImmunity", "amount": 1},
+    {"stat": "fujungleslowImmunity", "amount": 1},
+    {"stat": "jungleslowImmunity", "amount": 1},
+    {"stat": "mudslowImmunity", "amount": 1},
+    {"stat": "slushslowImmunity", "amount": 1},
+    {"stat": "snowslowImmunity", "amount": 1},
+
+  // Environment
+    {"stat": "biomecoldImmunity", "amount": 1},
+
+  // Body
+    {"stat": "maxHealth", "effectiveMultiplier": 0.75},
+    {"stat": "maxEnergy", "effectiveMultiplier": 1.5},
+    {"stat": "energyRegenBlockTime", "baseMultiplier": 1.334},
+    {"stat": "energyRegenPercentageRate", "baseMultiplier": 1.5},
+    {"stat": "foodDelta", "baseMultiplier": 1.5},
+    {"stat": "powerMultiplier", "effectiveMultiplier": 0.85},
+    {"stat": "fallDamageMultiplier", "effectiveMultiplier": 0.6},
+
+  // Ranged
+    {"stat": "sniperrifleMastery", "amount": 0.2},
+
+  // Melee
+    {"stat": "fistMastery", "amount": 0.1}
+  ],
+
+  "diet": [{"ORGANIC": false, "MEAT": true}, {"FRUIT": true, "DAIRY": true}],
+
+  "controlModifiers": {
+    "airJumpModifier": 1.3,
+    "speedModifier": 1.18
+  },
+
+  "envEffects": [
+    {
+      "biomes": [
+        "thickjungle",
+        "forest",
+        "jungle",
+        "bog",
+        "arboreal",
+        "arboreal2",
+        "arborealdark"
+      ],  
+      "stats": [
+        {"stat": "maxHealth", "effectiveMultiplier": 1.15}
+      ]      
+    },
+    {
+      "biomes": [
+        "arboreal2",
+        "scorchedcity",
+        "desert",
+        "desertwastes",
+        "desertwastesdark",
+        "magma",
+        "magmadark",
+        "volcanic",
+        "volcanicdark",
+        "infernus",
+        "infernusdark",
+        "sulphuric",
+        "sulphuricdark"
+      ],
+      "stats": [
+        {"stat": "protection", "effectiveMultiplier": 0.85}
+      ]      
+    }    
+  ],
+
+  "weaponEffects": [],
+
+  "scripts": [
+    {
+      "script": "/scripts/fr_scripts/healthRegen.lua",
+      "args": {"healingRate": 0.008}
+    }
+  ]
+}

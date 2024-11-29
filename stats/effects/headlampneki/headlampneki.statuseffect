@@ -1,0 +1,8 @@
+// This does nothing, it's only here to fix a log spam for older characters
+
+{
+  "name": "headlampneki",
+  "effectConfig": {},
+  "defaultDuration": 5,
+  "scripts": []
+}

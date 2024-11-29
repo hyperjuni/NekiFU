@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"It's like a crryogenic bed, but with only the cold part."},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+  ]
+]
