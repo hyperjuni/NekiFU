@@ -57,5 +57,5 @@
 
 ---
 ## Credits
-* [Khe](https://steamcommunity.com/id/spacegoatkhe) - For the Nightvision code and other coding help
+* [Khe](https://steamcommunity.com/id/spacegoatkhe) - For the Nightvision and Bleed code, as well as other coding help
 * The [Frackin' Universe](https://steamcommunity.com/workshop/filedetails/?id=729480149) team - For patiently answering my dumb questions :3
