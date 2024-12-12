@@ -1,4 +1,4 @@
-## **This patch makes the Neki species compatible with [Frackin' Universe](https://github.com/sayterdarkwynd/FrackinUniverse).**
+## **This patch makes the [Neki](https://github.com/hyperjuni/Neki) species compatible with [Frackin' Universe](https://github.com/sayterdarkwynd/FrackinUniverse).**
 
 ## Features
 * A full set of species-specific Frackin' Universe stats
