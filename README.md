@@ -51,7 +51,6 @@
 
 ---
 ## Links
-* Here's the [Neki mod](https://github.com/hyperjuni/Neki)
 * Here's the [Steam version](https://steamcommunity.com/workshop/filedetails/?id=2632319634)
 * Here's the [Non-Steam version](https://community.playstarbound.com/resources/neki.6147)
 * Come chat with us at the [Neki Discord](https://discord.gg/R6tfkazYgb)
