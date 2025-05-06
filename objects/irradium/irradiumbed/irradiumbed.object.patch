@@ -4,7 +4,7 @@
     {"op":"add","path":"/sitStatusEffects","value":[]}
   ],
   [
-    {"op":"add","path":"/nekiDescription","value":"This bed is full of terrible fuck!"},
+    {"op":"add","path":"/nekiDescription","value":"This bed is full of terrible yuck!"},
     {"op":"add","path":"/sitStatusEffects/-","value":"nekihide"}
   ]
 ]
