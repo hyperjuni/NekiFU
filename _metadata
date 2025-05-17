@@ -1,7 +1,7 @@
 {
   "author" : "Juni",
   "friendlyName" : "NekiFU",
-  "includes" : ["FrackinUniverse", "Neki"],
+  "includes" : ["FrackinUniverse", "Neki", "NekiRu"],
   "link" : "https://steamcommunity.com/sharedfiles/filedetails/?id=2632319634",
   "name" : "NekiFU",
   "steamContentId" : "2632319634",
