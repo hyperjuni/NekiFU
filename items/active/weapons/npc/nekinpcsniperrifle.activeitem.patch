@@ -1,32 +1,5 @@
 [
-  {"op": "add", "path": "/isAmmoBased", "value": 1},
-  {"op": "add", "path": "/reloadTime", "value": [1,3]},
-  {"op": "add", "path": "/magazineSize", "value": [1,8]},
-  {"op": "remove", "path": "/scriptDelta"},
-  {"op": "replace", "path": "/primaryAbility/fireTime", "value": 0.3},
-  {"op": "replace", "path": "/primaryAbility/baseDps", "value": 17},
-  {"op": "replace", "path": "/primaryAbility/energyUsage", "value": 7.5},
-  {"op": "replace", "path": "/primaryAbility/inaccuracy", "value": 0.005},
-  {"op": "replace", "path": "/primaryAbility/projectileParameters/knockbackRange/1", "value": 20},
-  {"op": "replace", "path": "/fireSounds",
-    "value": [
-      "/sfx/gun/mp1.ogg",
-      "/sfx/gun/mp2.ogg",
-      "/sfx/gun/mp3.ogg",
-      "/sfx/gun/ar1.ogg",
-      "/sfx/gun/ar2.ogg",
-      "/sfx/gun/ar3.ogg",
-      "/sfx/gun/ar4.ogg",
-      "/sfx/gun/ar5.ogg",
-      "/sfx/gun/ar6.ogg",
-      "/sfx/gun/grenade2.ogg",
-      "/sfx/gun/sniper1.ogg",
-      "/sfx/gun/sniper2.ogg",
-      "/sfx/gun/sniper3.ogg",
-      "/sfx/gun/sniper4.ogg",
-      "/sfx/gun/uzi1.ogg",
-      "/sfx/gun/uzi2.ogg",
-      "/sfx/gun/uzi3.ogg"
-    ]
-  }
+  {"op": "add","path": "/critChance","value": 2},
+  {"op": "add","path": "/critBonus","value": 5},
+  {"op": "add","path": "/isSniper","value": 1}
 ]
