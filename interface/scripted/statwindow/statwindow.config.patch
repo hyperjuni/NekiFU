@@ -1,3 +1,4 @@
 [
-  {"op": "add", "path": "/races/-", "value": "neki"}
+  {"op": "add", "path": "/races/-", "value": "neki"},
+  {"op": "add", "path": "/races/-", "value": "nekistripes"}
 ]
