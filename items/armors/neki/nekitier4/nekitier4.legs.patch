@@ -18,14 +18,14 @@
 ^yellow;^reset; Sniper: Damage x^green;1.15^reset;, +^green;2.5^reset;% Crit.
 ^yellow;^reset; +^green;50^reset;% Knockback Resist"
     },
-    {"op": "add",  "path": "/leveledStatusEffects/-",
+    {"op": "add", "path": "/leveledStatusEffects/-",
       "value": {
         "levelFunction": "fuArmorResistMultiplier",
         "stat": "physicalResistance",
         "amount": 0.033334
       }
     },
-    {"op": "add",  "path": "/statusEffects",
+    {"op": "add", "path": "/statusEffects",
       "value": [
         "nekitier4setbonus",
         {"stat": "nekitier4set_legs", "amount": 1}

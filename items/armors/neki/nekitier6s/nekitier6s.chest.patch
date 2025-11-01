@@ -1,17 +1,17 @@
 [
   [
     {"op": "test", "path": "/itemTags", "inverse": true},
-    {"op": "add",  "path": "/itemTags", "value": []},
-    {"op": "add",  "path": "/itemTags/-", "value": "upgradeableWeapon"}
+    {"op": "add", "path": "/itemTags", "value": []},
+    {"op": "add", "path": "/itemTags/-", "value": "upgradeableWeapon"}
   ],
   [
     {"op": "test", "path": "/itemTags"},
-    {"op": "add",  "path": "/itemTags/-", "value": "upgradeableWeapon"},
-    {"op": "add",  "path": "/itemTags/-", "value": "offensive"},
-    {"op": "add",  "path": "/itemTags/-", "value": "ranged"}
+    {"op": "add", "path": "/itemTags/-", "value": "upgradeableWeapon"},
+    {"op": "add", "path": "/itemTags/-", "value": "offensive"},
+    {"op": "add", "path": "/itemTags/-", "value": "ranged"}
   ],
   [
-    {"op": "replace",  "path": "/tooltipKind", "value": "armornew2"},
+    {"op": "replace", "path": "/tooltipKind", "value": "armornew2"},
     {"op": "replace", "path": "/description",
       "value": "^orange;Set Bonuses^reset;:
 ^yellow;^reset; Sniper: Damage x^green;1.5^reset;, +^green;5^reset;% Crit
@@ -29,12 +29,12 @@
         "amount": 0.033334
       }
     },
-    {"op": "add",  "path": "/statusEffects",
+    {"op": "add", "path": "/statusEffects",
       "value": [
         "nekitier6ssetbonus",
         {"stat": "nekitier6sset_chest", "amount": 1}
       ]
     },
-    {"op": "add",  "path": "/builder", "value": "/items/buildscripts/fubuildarmor.lua"}
+    {"op": "add", "path": "/builder", "value": "/items/buildscripts/fubuildarmor.lua"}
   ]
 ]

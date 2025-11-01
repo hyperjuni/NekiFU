@@ -1,36 +1,36 @@
 [
   [
     {"op": "test", "path": "/itemTags", "inverse": true},
-    {"op": "add",  "path": "/itemTags", "value": []},
-    {"op": "add",  "path": "/itemTags/-", "value": "upgradeableWeapon"}
+    {"op": "add", "path": "/itemTags", "value": []},
+    {"op": "add", "path": "/itemTags/-", "value": "upgradeableWeapon"}
   ],
   [
     {"op": "test", "path": "/itemTags"},
-    {"op": "add",  "path": "/itemTags/-", "value": "upgradeableWeapon"},
+    {"op": "add", "path": "/itemTags/-", "value": "upgradeableWeapon"},
     {"op": "add", "path": "/itemTags/-", "value": "balanced"},
     {"op": "add", "path": "/itemTags/-", "value": "melee"}
   ],
   [
-    {"op": "replace",  "path": "/tooltipKind", "value": "armornew2"},
+    {"op": "replace", "path": "/tooltipKind", "value": "armornew2"},
     {"op": "replace", "path": "/description",
       "value": "^orange;Set Bonuses^reset;:
 ^yellow;^reset; Fist: Damage x^green;1.3^reset;, +^green;20^reset;% Crit. dmg
 ^yellow;^reset; Sniper: Damage x^green;1.15^reset;, +^green;2.5^reset;% Crit.
 ^yellow;^reset; +^green;50^reset;% Knockback Resist"
     },
-    {"op": "add",  "path": "/leveledStatusEffects/-",
+    {"op": "add", "path": "/leveledStatusEffects/-",
       "value": {
         "levelFunction": "fuArmorResistMultiplier",
         "stat": "physicalResistance",
         "amount": 0.033334
       }
     },
-    {"op": "add",  "path": "/statusEffects",
+    {"op": "add", "path": "/statusEffects",
       "value": [
         "nekitier4setbonus",
         {"stat": "nekitier4set_chest", "amount": 1}
       ]
     },
-    {"op": "add",  "path": "/builder", "value": "/items/buildscripts/fubuildarmor.lua"}
+    {"op": "add", "path": "/builder", "value": "/items/buildscripts/fubuildarmor.lua"}
   ]
 ]

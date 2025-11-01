@@ -17,14 +17,14 @@
 ^yellow;^reset; Fist: Damage x^green;1.25^reset;, +^green;10^reset;% Crit. dmg
 ^yellow;^reset; +^green;30^reset;% Knockback Resist"
     },
-    {"op": "add",  "path": "/leveledStatusEffects/-",
+    {"op": "add", "path": "/leveledStatusEffects/-",
       "value": {
         "levelFunction": "fuArmorResistMultiplier",
         "stat": "physicalResistance",
         "amount": 0.033334
       }
     },
-    {"op": "add",  "path": "/statusEffects",
+    {"op": "add", "path": "/statusEffects",
       "value": [
         "nekitier3setbonus",
         {"stat": "nekitier3set_legs", "amount": 1}

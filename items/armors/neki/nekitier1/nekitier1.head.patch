@@ -16,14 +16,14 @@
       "value": "^orange;Set Bonuses^reset;:
 ^yellow;^reset; Fist: Damage x^green;1.2"
     },
-    {"op": "add",  "path": "/leveledStatusEffects/-",
+    {"op": "add", "path": "/leveledStatusEffects/-",
       "value": {
         "levelFunction": "fuArmorResistMultiplier",
         "stat": "physicalResistance",
         "amount": 0.033334
       }
     },
-    {"op": "add",  "path": "/statusEffects",
+    {"op": "add", "path": "/statusEffects",
       "value": [
         "nekitier1setbonus",
         {"stat": "nekitier1set_head", "amount": 1}
